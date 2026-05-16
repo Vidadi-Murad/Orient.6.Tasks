@@ -22,6 +22,39 @@ print("The Answer: \(sumOfNum)")
 //-----------------------------------------
 
 
+
+
+//                                   Task 2
+/*
+ //-----------------------------------------
+func factNum(num: Int?) {
+    guard let newNum = num else{
+        print("Error!!!")
+        return
+    }
+    var factNum: Int = 1
+    for i in 1...newNum {
+        factNum = factNum * i
+    }
+    print("-------------------------")
+    print("Here you are: \(factNum)")
+    print("-------------------------")
+
+}
+
+factNum(num: 5)
+*/
+//-----------------------------------------
+
+
+
+
+
+
+
+
+
+
 //                                   Task 3
 /*
  //-----------------------------------------
@@ -33,6 +66,36 @@ print("The Answer: \(sumOfNum)")
  }
  */
  //-----------------------------------------
+
+
+
+
+
+
+//                                   Task 4
+/*
+ //-----------------------------------------
+
+func reverseString(name:String?) {
+    guard let newString = name else{
+        print("Error!!!!")
+        return
+    }
+    var reverseString: String = ""
+    for i in newString{
+        reverseString = String(i) + reverseString
+    }
+    print("--------------------------------")
+    print("Reverse Word: \(reverseString)")
+    print("--------------------------------")
+
+}
+reverseString(name: "elnur")
+*/
+//-----------------------------------------
+
+
+
  
 //                                   Task 5
 //-----------------------------------------
@@ -98,23 +161,3 @@ while true{
 }
 */
 //-----------------------------------------
-
-
-//                                   Task 2
-
-func factNum(num: Int?) {
-    guard let newNum = num else{
-        print("Error!!!")
-        return
-    }
-    var factNum: Int = 1
-    for i in 1...newNum {
-        factNum = factNum * i
-    }
-    print("-------------------------")
-    print("Here you are: \(factNum)")
-    print("-------------------------")
-
-}
-
-factNum(num: 5)
