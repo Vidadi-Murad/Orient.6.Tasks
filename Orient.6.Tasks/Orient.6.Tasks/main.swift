@@ -72,10 +72,12 @@ while true{
     }
 }
 */
-//-----------------------------------------
+//------------------------------------------
 
 
 //                                   Task 6
+/*
+ //-----------------------------------------
 
 while true{
     print("Enter The Number:")
@@ -94,3 +96,25 @@ while true{
     print("----------------------------")
 
 }
+*/
+//-----------------------------------------
+
+
+//                                   Task 2
+
+func factNum(num: Int?) {
+    guard let newNum = num else{
+        print("Error!!!")
+        return
+    }
+    var factNum: Int = 1
+    for i in 1...newNum {
+        factNum = factNum * i
+    }
+    print("-------------------------")
+    print("Here you are: \(factNum)")
+    print("-------------------------")
+
+}
+
+factNum(num: 5)
