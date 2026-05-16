@@ -73,3 +73,24 @@ while true{
 }
 */
 //-----------------------------------------
+
+
+//                                   Task 6
+
+while true{
+    print("Enter The Number:")
+    var realNum: Int = Int(readLine()!) ?? 0
+
+    var sumOfNum = 0
+
+
+    while realNum > 0 {
+        let noName = realNum % 10
+        sumOfNum = sumOfNum + noName
+        realNum = realNum / 10
+    }
+    print("----------------------------")
+    print("Here you are: \(sumOfNum)")
+    print("----------------------------")
+
+}
